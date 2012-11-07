@@ -1,6 +1,6 @@
 @import url(../../../stylesheets/application.css);
 @import url("//fonts.googleapis.com/css?family=Droid+Sans:regular,bold");
-/* line 1, ../sass/_general_elements.sass */
+/* line 1, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 body {
   background: #f0f5fe url(../images/body_noise.gif);
   color: #333333;
@@ -10,43 +10,43 @@ body {
   margin: 10px;
 }
 
-/* line 9, ../sass/_general_elements.sass */
+/* line 9, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 #wrapper {
   background: none;
 }
 
-/* line 14, ../sass/_general_elements.sass */
+/* line 14, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 a:link {
   color: #4183c4;
   text-decoration: underline;
 }
-/* line 17, ../sass/_general_elements.sass */
+/* line 17, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 a:visited {
   color: #222299;
 }
-/* line 19, ../sass/_general_elements.sass */
+/* line 19, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 a:hover, a:active {
   color: #a2c2e2;
   text-decoration: underline;
 }
-/* line 22, ../sass/_general_elements.sass */
+/* line 22, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 a img {
   border: none;
 }
 
-/* line 26, ../sass/_general_elements.sass */
+/* line 26, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 ul, ol {
   margin: 1em 0;
   padding: 0;
 }
 
-/* line 29, ../sass/_general_elements.sass */
+/* line 29, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 li {
   margin-left: 1.5em;
   padding: 0;
 }
 
-/* line 34, ../sass/_general_elements.sass */
+/* line 34, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 h1, h2, h3 {
   border: none;
   font-family: "Myriad Pro", arial, sans-serif;
@@ -54,63 +54,63 @@ h1, h2, h3 {
   padding: 0;
 }
 
-/* line 39, ../sass/_general_elements.sass */
+/* line 39, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 h1 {
   font-size: 1.96em;
 }
 
-/* line 41, ../sass/_general_elements.sass */
+/* line 41, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 h2, .wiki h1 {
   font-size: 1.96em;
   margin-bottom: 0.4em;
   margin-top: 0;
 }
 
-/* line 45, ../sass/_general_elements.sass */
+/* line 45, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 h3 {
   font-size: 1.4em;
   margin-bottom: 0.2em;
   margin-top: 1.2em;
 }
 
-/* line 50, ../sass/_general_elements.sass */
+/* line 50, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 hr {
   background: none;
   border: none;
   border-top: 1px solid #e4e4ef;
 }
 
-/* line 56, ../sass/_general_elements.sass */
+/* line 56, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 #sidebar h2, #sidebar h3 {
   color: #333333;
 }
-/* line 58, ../sass/_general_elements.sass */
+/* line 58, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 #sidebar p {
   clear: both;
 }
 
-/* line 64, ../sass/_general_elements.sass */
+/* line 64, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 #header h1 a.root,
 #header h1 a.ancestor {
   color: #999999;
   font-size: 1em;
   text-decoration: none;
 }
-/* line 69, ../sass/_general_elements.sass */
+/* line 69, /usr/share/redmine/public/themes/pepper/sass/_general_elements.sass */
 #header h1 a.root:hover,
 #header h1 a.ancestor:hover {
   color: #a2c2e2;
   text-decoration: underline;
 }
 
-/* line 1, ../sass/_general_classes.sass */
+/* line 1, /usr/share/redmine/public/themes/pepper/sass/_general_classes.sass */
 .author {
   color: #888888;
   font-size: 0.8em;
   margin-top: 0;
 }
 
-/* line 6, ../sass/_general_classes.sass */
+/* line 6, /usr/share/redmine/public/themes/pepper/sass/_general_classes.sass */
 div.flash {
   border: 0;
   -moz-border-radius: 2px;
@@ -123,31 +123,31 @@ div.flash {
   background-color: rgba(0, 0, 0, 0.4);
   font-weight: bold;
   text-align: center;
-  margin: 18px 0;
-  padding: 9px 18px;
+  margin: 14px 0;
+  padding: 7px 14px;
 }
-/* line 15, ../sass/_general_classes.sass */
+/* line 15, /usr/share/redmine/public/themes/pepper/sass/_general_classes.sass */
 div.flash.error, div.flash.notice {
-  background-position: 9px 50%;
+  background-position: 7px 50%;
 }
-/* line 17, ../sass/_general_classes.sass */
+/* line 17, /usr/share/redmine/public/themes/pepper/sass/_general_classes.sass */
 div.flash.error {
   background-color: #dd0000;
   color: #ffdddd;
   text-shadow: rgba(0, 0, 0, 0.4) 0.1em 0.1em 0.1em;
 }
-/* line 21, ../sass/_general_classes.sass */
+/* line 21, /usr/share/redmine/public/themes/pepper/sass/_general_classes.sass */
 div.flash.notice {
   background-color: #d9f2d9;
   color: #339933;
 }
 
-/* line 25, ../sass/_general_classes.sass */
+/* line 25, /usr/share/redmine/public/themes/pepper/sass/_general_classes.sass */
 .pagination {
   text-align: center;
 }
 
-/* line 28, ../sass/_general_classes.sass */
+/* line 28, /usr/share/redmine/public/themes/pepper/sass/_general_classes.sass */
 p.subtitle {
   color: #888888;
   font-size: 0.9em;
@@ -155,38 +155,38 @@ p.subtitle {
   margin: 0;
 }
 
-/* line 34, ../sass/_general_classes.sass */
+/* line 34, /usr/share/redmine/public/themes/pepper/sass/_general_classes.sass */
 .splitcontentleft, .splitcontentright {
   width: 47%;
 }
 
-/* line 36, ../sass/_general_classes.sass */
+/* line 36, /usr/share/redmine/public/themes/pepper/sass/_general_classes.sass */
 .splitcontentleft {
   float: left;
 }
 
-/* line 38, ../sass/_general_classes.sass */
+/* line 38, /usr/share/redmine/public/themes/pepper/sass/_general_classes.sass */
 .splitcontentright {
   float: right;
 }
 
-/* line 41, ../sass/_general_classes.sass */
+/* line 41, /usr/share/redmine/public/themes/pepper/sass/_general_classes.sass */
 .contextual {
   float: right;
   font-size: inherit;
 }
 
-/* line 44, ../sass/_general_classes.sass */
+/* line 44, /usr/share/redmine/public/themes/pepper/sass/_general_classes.sass */
 #content > .contextual {
   margin-top: 0.4em;
 }
 
-/* line 47, ../sass/_general_classes.sass */
+/* line 47, /usr/share/redmine/public/themes/pepper/sass/_general_classes.sass */
 .nodata {
   color: #888888;
 }
 
-/* line 50, ../sass/_general_classes.sass */
+/* line 50, /usr/share/redmine/public/themes/pepper/sass/_general_classes.sass */
 .tip {
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2em;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 2em;
@@ -194,7 +194,7 @@ p.subtitle {
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 2em;
 }
 
-/* line 1, ../sass/general_classes/_modal.sass */
+/* line 1, /usr/share/redmine/public/themes/pepper/sass/general_classes/_modal.sass */
 div.modal {
   border: 2px solid #444444;
   -moz-border-radius: 4px;
@@ -208,7 +208,7 @@ div.modal {
   -o-box-shadow: 0.1em 0.2em 2em rgba(0, 0, 0, 0.5);
   box-shadow: 0.1em 0.2em 2em rgba(0, 0, 0, 0.5);
 }
-/* line 5, ../sass/general_classes/_modal.sass */
+/* line 5, /usr/share/redmine/public/themes/pepper/sass/general_classes/_modal.sass */
 div.modal h3.title {
   background: #666666 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc3Nzc3NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQ0NDQ0NCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background: #666666 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #777777), color-stop(100%, #444444));
@@ -224,12 +224,12 @@ div.modal h3.title {
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
 }
-/* line 13, ../sass/general_classes/_modal.sass */
+/* line 13, /usr/share/redmine/public/themes/pepper/sass/general_classes/_modal.sass */
 div.modal p.buttons {
   text-align: left;
 }
 
-/* line 1, ../sass/general_classes/_progress.sass */
+/* line 1, /usr/share/redmine/public/themes/pepper/sass/general_classes/_progress.sass */
 table.progress {
   background: #efefef;
   background: #efefef url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q1ZDVkNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VmZWZlZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -253,20 +253,20 @@ table.progress {
   display: block;
   overflow: hidden;
 }
-/* line 9, ../sass/general_classes/_progress.sass */
+/* line 9, /usr/share/redmine/public/themes/pepper/sass/general_classes/_progress.sass */
 table.progress tbody, table.progress tr, table.progress td {
   display: block;
   padding: 0;
 }
-/* line 12, ../sass/general_classes/_progress.sass */
+/* line 12, /usr/share/redmine/public/themes/pepper/sass/general_classes/_progress.sass */
 table.progress tr {
   height: 1em;
 }
-/* line 14, ../sass/general_classes/_progress.sass */
+/* line 14, /usr/share/redmine/public/themes/pepper/sass/general_classes/_progress.sass */
 table.progress tr td {
   height: 1em;
 }
-/* line 16, ../sass/general_classes/_progress.sass */
+/* line 16, /usr/share/redmine/public/themes/pepper/sass/general_classes/_progress.sass */
 table.progress tr td.closed {
   background: #339933;
   background: #339933 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQwYmY0MCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzOTkzMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -284,7 +284,7 @@ table.progress tr td.closed {
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.5em;
   float: left;
 }
-/* line 23, ../sass/general_classes/_progress.sass */
+/* line 23, /usr/share/redmine/public/themes/pepper/sass/general_classes/_progress.sass */
 table.progress tr td.done {
   background: #8fbc8f;
   background: #8fbc8f url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FmY2ZhZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzhmYmM4ZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -302,7 +302,7 @@ table.progress tr td.done {
   box-shadow: rgba(0, 0, 0, 0.2) 0 0 0.5em;
   float: left;
 }
-/* line 31, ../sass/general_classes/_progress.sass */
+/* line 31, /usr/share/redmine/public/themes/pepper/sass/general_classes/_progress.sass */
 table.progress tr td.todo {
   background: transparent;
   border-bottom: 1px solid transparent;
@@ -310,16 +310,16 @@ table.progress tr td.todo {
   float: right;
 }
 
-/* line 43, ../sass/general_classes/_progress.sass */
+/* line 43, /usr/share/redmine/public/themes/pepper/sass/general_classes/_progress.sass */
 .issues table.progress tbody, .issues table.progress tr, .issues table.progress td {
   padding: 0;
 }
-/* line 45, ../sass/general_classes/_progress.sass */
+/* line 45, /usr/share/redmine/public/themes/pepper/sass/general_classes/_progress.sass */
 .issues table.progress tr:hover {
   background: inherit;
 }
 
-/* line 41, ../sass/_layout.sass */
+/* line 41, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu {
   *zoom: 1;
   background: none;
@@ -329,37 +329,37 @@ table.progress tr td.todo {
   position: relative;
   z-index: 999;
 }
-/* line 43, ../sass/_layout.sass */
+/* line 43, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu:after {
   content: "";
   display: block;
   overflow: hidden;
   clear: both;
 }
-/* line 57, ../sass/_layout.sass */
+/* line 57, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu a {
   font-weight: normal;
   margin-right: inherit;
 }
-/* line 60, ../sass/_layout.sass */
+/* line 60, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu #account, #top-menu #loggedas {
   position: absolute;
   right: 0;
   text-align: right;
   width: auto;
 }
-/* line 65, ../sass/_layout.sass */
+/* line 65, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu #account a:active, #top-menu #loggedas a:active {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   -o-box-shadow: none;
   box-shadow: none;
 }
-/* line 67, ../sass/_layout.sass */
+/* line 67, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu #account {
   bottom: 0;
 }
-/* line 69, ../sass/_layout.sass */
+/* line 69, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu #account ul {
   background: none;
   -moz-box-shadow: none;
@@ -369,7 +369,7 @@ table.progress tr td.todo {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 74, ../sass/_layout.sass */
+/* line 74, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu #account ul a {
   border: none;
   color: #4183c4;
@@ -378,7 +378,7 @@ table.progress tr td.todo {
   padding-left: 1em;
   text-shadow: none;
 }
-/* line 81, ../sass/_layout.sass */
+/* line 81, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu #loggedas {
   border-bottom: 1px solid #e4e4ef;
   color: #333333;
@@ -386,11 +386,11 @@ table.progress tr td.todo {
   margin-right: inherit;
   width: inherit;
 }
-/* line 87, ../sass/_layout.sass */
+/* line 87, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu #loggedas a {
   color: #4183c4;
 }
-/* line 90, ../sass/_layout.sass */
+/* line 90, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu ul {
   list-style-type: none;
   margin: 0;
@@ -418,21 +418,21 @@ table.progress tr td.todo {
   float: left;
   overflow: visible;
 }
-/* line 6, ../sass/mixins/_navigation-list.sass */
+/* line 6, /usr/share/redmine/public/themes/pepper/sass/mixins/_navigation-list.sass */
 #top-menu ul li {
   float: left;
   margin: 0;
   padding: 0;
   position: relative;
 }
-/* line 11, ../sass/mixins/_navigation-list.sass */
+/* line 11, /usr/share/redmine/public/themes/pepper/sass/mixins/_navigation-list.sass */
 #top-menu ul a {
   display: block;
   margin: 0;
-  padding: 9px;
+  padding: 7px;
   text-decoration: none;
 }
-/* line 10, ../sass/_layout.sass */
+/* line 10, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu ul li a {
   border-left: 1px solid #7e7e7e;
   border-top: 1px solid #7e7e7e;
@@ -442,9 +442,9 @@ table.progress tr td.todo {
   border-top: 1px solid rgba(200, 200, 200, 0.3);
   border-right: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  padding: 9px 18px;
+  padding: 7px 14px;
 }
-/* line 22, ../sass/_layout.sass */
+/* line 22, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu ul li:first-child a {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
@@ -459,7 +459,7 @@ table.progress tr td.todo {
   -khtml-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-/* line 24, ../sass/_layout.sass */
+/* line 24, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu ul li:last-child a {
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
@@ -474,17 +474,17 @@ table.progress tr td.todo {
   -khtml-border-bottom-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-/* line 26, ../sass/_layout.sass */
+/* line 26, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu ul a {
   color: white;
   text-decoration: none;
   text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
 }
-/* line 30, ../sass/_layout.sass */
+/* line 30, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu ul a:hover {
   text-decoration: underline;
 }
-/* line 32, ../sass/_layout.sass */
+/* line 32, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #top-menu ul a.active, #top-menu ul a:active {
   border-left: 1px solid rgba(0, 0, 0, 0.3);
   border-top: 1px solid rgba(0, 0, 0, 0.3);
@@ -496,7 +496,7 @@ table.progress tr td.todo {
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
 }
 
-/* line 94, ../sass/_layout.sass */
+/* line 94, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector {
   list-style-type: none;
   margin: 0;
@@ -530,21 +530,21 @@ table.progress tr td.todo {
   position: relative;
   text-shadow: none;
 }
-/* line 6, ../sass/mixins/_navigation-list.sass */
+/* line 6, /usr/share/redmine/public/themes/pepper/sass/mixins/_navigation-list.sass */
 .project_selector li {
   float: left;
   margin: 0;
   padding: 0;
   position: relative;
 }
-/* line 11, ../sass/mixins/_navigation-list.sass */
+/* line 11, /usr/share/redmine/public/themes/pepper/sass/mixins/_navigation-list.sass */
 .project_selector a {
   display: block;
   margin: 0;
-  padding: 9px;
+  padding: 7px;
   text-decoration: none;
 }
-/* line 10, ../sass/_layout.sass */
+/* line 10, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector li a {
   border-left: 1px solid #7e7e7e;
   border-top: 1px solid #7e7e7e;
@@ -554,9 +554,9 @@ table.progress tr td.todo {
   border-top: 1px solid rgba(200, 200, 200, 0.3);
   border-right: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  padding: 9px 18px;
+  padding: 7px 14px;
 }
-/* line 22, ../sass/_layout.sass */
+/* line 22, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector li:first-child a {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
@@ -571,7 +571,7 @@ table.progress tr td.todo {
   -khtml-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-/* line 24, ../sass/_layout.sass */
+/* line 24, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector li:last-child a {
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
@@ -586,17 +586,17 @@ table.progress tr td.todo {
   -khtml-border-bottom-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-/* line 26, ../sass/_layout.sass */
+/* line 26, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector a {
   color: white;
   text-decoration: none;
   text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
 }
-/* line 30, ../sass/_layout.sass */
+/* line 30, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector a:hover {
   text-decoration: underline;
 }
-/* line 32, ../sass/_layout.sass */
+/* line 32, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector a.active, .project_selector a:active {
   border-left: 1px solid rgba(0, 0, 0, 0.3);
   border-top: 1px solid rgba(0, 0, 0, 0.3);
@@ -607,7 +607,7 @@ table.progress tr td.todo {
   -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
 }
-/* line 103, ../sass/_layout.sass */
+/* line 103, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector .toggle {
   background: url(../images/iconic/gray_light/arrow_down_12x12.png) 50% 50% no-repeat;
   height: 1.96em;
@@ -616,13 +616,13 @@ table.progress tr td.todo {
   padding: 0;
   width: 1.96em;
 }
-/* line 110, ../sass/_layout.sass */
+/* line 110, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector .toggle:active, .project_selector .toggle:hover, .project_selector a.toggle:active, .project_selector a.active {
   background-image: url(../images/iconic/white/arrow_down_12x12.png);
   border: 0;
   box-shadow: none;
 }
-/* line 115, ../sass/_layout.sass */
+/* line 115, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector ul.projects {
   list-style-type: none;
   margin: 0;
@@ -649,10 +649,10 @@ table.progress tr td.todo {
   border-radius: 4px;
   float: left;
   overflow: visible;
-  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 9px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 9px;
-  -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 9px;
-  box-shadow: rgba(0, 0, 0, 0.5) 0 0 9px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 0 7px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0 7px;
+  -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 7px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 7px;
   border: 0;
   float: none;
   margin: 0;
@@ -663,21 +663,21 @@ table.progress tr td.todo {
   left: 0;
   z-index: 999;
 }
-/* line 6, ../sass/mixins/_navigation-list.sass */
+/* line 6, /usr/share/redmine/public/themes/pepper/sass/mixins/_navigation-list.sass */
 .project_selector ul.projects li {
   float: left;
   margin: 0;
   padding: 0;
   position: relative;
 }
-/* line 11, ../sass/mixins/_navigation-list.sass */
+/* line 11, /usr/share/redmine/public/themes/pepper/sass/mixins/_navigation-list.sass */
 .project_selector ul.projects a {
   display: block;
   margin: 0;
-  padding: 9px;
+  padding: 7px;
   text-decoration: none;
 }
-/* line 10, ../sass/_layout.sass */
+/* line 10, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector ul.projects li a {
   border-left: 1px solid #7e7e7e;
   border-top: 1px solid #7e7e7e;
@@ -687,9 +687,9 @@ table.progress tr td.todo {
   border-top: 1px solid rgba(200, 200, 200, 0.3);
   border-right: 1px solid rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-  padding: 9px 18px;
+  padding: 7px 14px;
 }
-/* line 22, ../sass/_layout.sass */
+/* line 22, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector ul.projects li:first-child a {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
@@ -704,7 +704,7 @@ table.progress tr td.todo {
   -khtml-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-/* line 24, ../sass/_layout.sass */
+/* line 24, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector ul.projects li:last-child a {
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
@@ -719,17 +719,17 @@ table.progress tr td.todo {
   -khtml-border-bottom-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-/* line 26, ../sass/_layout.sass */
+/* line 26, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector ul.projects a {
   color: white;
   text-decoration: none;
   text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
 }
-/* line 30, ../sass/_layout.sass */
+/* line 30, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector ul.projects a:hover {
   text-decoration: underline;
 }
-/* line 32, ../sass/_layout.sass */
+/* line 32, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector ul.projects a.active, .project_selector ul.projects a:active {
   border-left: 1px solid rgba(0, 0, 0, 0.3);
   border-top: 1px solid rgba(0, 0, 0, 0.3);
@@ -740,11 +740,11 @@ table.progress tr td.todo {
   -o-box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
   box-shadow: rgba(0, 0, 0, 0.5) 0 0 1em inset;
 }
-/* line 127, ../sass/_layout.sass */
+/* line 127, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector ul.projects li {
   float: none;
 }
-/* line 129, ../sass/_layout.sass */
+/* line 129, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector ul.projects li a {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -754,27 +754,27 @@ table.progress tr td.todo {
   border-radius: 0;
   white-space: nowrap;
 }
-/* line 132, ../sass/_layout.sass */
+/* line 132, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .project_selector ul.projects li .selected:before {
   content: "✔ ";
 }
 
-/* line 135, ../sass/_layout.sass */
+/* line 135, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #header {
   background: none;
   color: #333333;
   height: auto;
-  margin: 36px 0 4.5px 0;
+  margin: 28px 0 3.5px 0;
   padding: 0;
 }
-/* line 141, ../sass/_layout.sass */
+/* line 141, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #header h1 {
   float: left;
-  margin: 0 4.5px 0 18px;
-  padding: 4.5px 0;
+  margin: 0 3.5px 0 14px;
+  padding: 3.5px 0;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.9);
 }
-/* line 146, ../sass/_layout.sass */
+/* line 146, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #header #main-menu {
   clear: both;
   float: left;
@@ -782,61 +782,61 @@ table.progress tr td.todo {
   position: relative;
   left: 0;
 }
-/* line 152, ../sass/_layout.sass */
+/* line 152, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #header #main-menu ul {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
   padding: 0;
-  margin-left: 9px;
+  margin-left: 7px;
 }
-/* line 6, ../sass/mixins/_navigation-list.sass */
+/* line 6, /usr/share/redmine/public/themes/pepper/sass/mixins/_navigation-list.sass */
 #header #main-menu ul li {
   float: left;
   margin: 0;
   padding: 0;
   position: relative;
 }
-/* line 11, ../sass/mixins/_navigation-list.sass */
+/* line 11, /usr/share/redmine/public/themes/pepper/sass/mixins/_navigation-list.sass */
 #header #main-menu ul a {
   display: block;
   margin: 0;
-  padding: 9px;
+  padding: 7px;
   text-decoration: none;
 }
-/* line 155, ../sass/_layout.sass */
+/* line 155, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #header #main-menu ul li {
   margin-right: 1px;
 }
-/* line 157, ../sass/_layout.sass */
+/* line 157, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #header #main-menu ul a {
   background: none;
   color: #333333;
   font-weight: normal;
 }
-/* line 161, ../sass/_layout.sass */
+/* line 161, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #header #main-menu ul a:hover, #header #main-menu ul a:active {
   color: #4183c4;
 }
-/* line 163, ../sass/_layout.sass */
+/* line 163, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #header #main-menu ul a.selected {
   font-weight: bold;
 }
-/* line 165, ../sass/_layout.sass */
+/* line 165, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #header #quick-search {
   text-align: right;
 }
-/* line 167, ../sass/_layout.sass */
+/* line 167, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #header #quick-search form {
   display: block;
   float: left;
 }
-/* line 170, ../sass/_layout.sass */
+/* line 170, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #header #quick-search a {
   color: #333333;
   text-decoration: none;
 }
-/* line 173, ../sass/_layout.sass */
+/* line 173, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #header #quick-search input {
   -moz-border-radius: 1em;
   -webkit-border-radius: 1em;
@@ -856,13 +856,13 @@ table.progress tr td.todo {
   margin: 0;
   padding: 0.2em 1em;
 }
-/* line 183, ../sass/_layout.sass */
+/* line 183, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #header #quick-search select {
   float: right;
   width: 150px;
 }
 
-/* line 188, ../sass/_layout.sass */
+/* line 188, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #main {
   -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 4px;
@@ -880,16 +880,16 @@ table.progress tr td.todo {
   margin: 0;
   overflow: hidden;
 }
-/* line 196, ../sass/_layout.sass */
+/* line 196, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #main #content {
   background: white;
   border: 0;
-  margin: 18px 254px 18px 18px;
+  margin: 14px 242px 14px 14px;
   min-height: 21em;
   padding: 0;
   width: auto;
 }
-/* line 203, ../sass/_layout.sass */
+/* line 203, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #main #sidebar {
   background: white url("../images/sidebar_separator.png") no-repeat 0 100%;
   background: url("../images/sidebar_separator.png") 0 100% no-repeat, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNlZmVmZWYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=') repeat scroll 0 0 transparent;
@@ -906,32 +906,32 @@ table.progress tr td.todo {
   -khtml-border-radius: 0 0 4px 0;
   border-radius: 0 0 4px 0;
   float: right;
-  padding: 18px;
-  padding-bottom: 72px;
+  padding: 14px;
+  padding-bottom: 56px;
   width: 200px;
 }
-/* line 211, ../sass/_layout.sass */
+/* line 211, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #main #sidebar h3:first-child {
   color: #333333;
   font-size: 1.4em;
   margin-top: 0.45em;
 }
-/* line 215, ../sass/_layout.sass */
+/* line 215, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #main #sidebar label {
   clear: both;
   font-weight: normal;
   width: auto;
 }
-/* line 220, ../sass/_layout.sass */
+/* line 220, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #main.nosidebar #content {
-  margin-right: 18px;
+  margin-right: 14px;
 }
-/* line 222, ../sass/_layout.sass */
+/* line 222, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #main.nosidebar #sidebar {
   display: none;
 }
 
-/* line 225, ../sass/_layout.sass */
+/* line 225, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .box {
   background-color: #eeeeef;
   background: #eeeeef url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -952,25 +952,25 @@ table.progress tr td.todo {
   -o-box-shadow: inset white 0 0 1em;
   box-shadow: inset white 0 0 1em;
   border: 1px solid #e4e4ef;
-  margin: 9px 0;
-  padding: 18px;
+  margin: 7px 0;
+  padding: 14px;
 }
-/* line 227, ../sass/_layout.sass */
+/* line 227, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 .box h3:first-child {
   margin-top: 0;
 }
 
-/* line 230, ../sass/_layout.sass */
+/* line 230, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #footer {
   background: none;
   border: none;
   clear: both;
   font-size: 0.8em;
-  margin: 18px;
+  margin: 14px;
   text-align: center;
 }
 
-/* line 238, ../sass/_layout.sass */
+/* line 238, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #ajax-indicator {
   background: black;
   background: rgba(0, 0, 0, 0.5);
@@ -990,40 +990,40 @@ table.progress tr td.todo {
   padding: 0;
   position: fixed;
   text-align: center;
-  top: 9px;
+  top: 7px;
   width: 100px;
 }
-/* line 254, ../sass/_layout.sass */
+/* line 254, /usr/share/redmine/public/themes/pepper/sass/_layout.sass */
 #ajax-indicator span {
   background: none;
   padding: 0;
 }
 
-/* line 4, ../sass/_forms.sass */
+/* line 4, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form em {
   display: block;
   font-size: 0.8em;
   font-style: normal;
 }
-/* line 9, ../sass/_forms.sass */
+/* line 9, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form p {
-  margin: 9px 0;
+  margin: 7px 0;
   overflow: hidden;
 }
-/* line 12, ../sass/_forms.sass */
+/* line 12, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form p br {
   display: none;
 }
-/* line 14, ../sass/_forms.sass */
+/* line 14, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form input {
   margin: 2px 0;
   max-width: 80%;
 }
-/* line 17, ../sass/_forms.sass */
+/* line 17, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form input[type=checkbox] {
   margin: 6px 0.25em 6px 0;
 }
-/* line 19, ../sass/_forms.sass */
+/* line 19, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form input[type=password], form input[type=text], form textarea {
   border: 1px solid #888888;
   -moz-border-radius: 2px;
@@ -1038,55 +1038,55 @@ form input[type=password], form input[type=text], form textarea {
   box-shadow: inset rgba(0, 0, 0, 0.2) 1px 1px 2px;
   padding: 4px;
 }
-/* line 24, ../sass/_forms.sass */
+/* line 24, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form input[type=password]:focus, form input[type=password]:hover, form input[type=text]:focus, form input[type=text]:hover, form textarea:focus, form textarea:hover {
   border-color: #a2c2e2;
 }
-/* line 26, ../sass/_forms.sass */
+/* line 26, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form select {
   margin: 5px 0;
   max-width: 99%;
 }
-/* line 31, ../sass/_forms.sass */
+/* line 31, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form input[type=submit] {
   cursor: pointer;
-  margin: 9px 1em 9px 0;
-  padding: 9px 18px;
+  margin: 7px 1em 7px 0;
+  padding: 7px 14px;
 }
-/* line 35, ../sass/_forms.sass */
+/* line 35, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form input[type=submit]:focus, form input[type=submit]:hover {
-  -moz-box-shadow: #a2c2e2 0 0 9px;
-  -webkit-box-shadow: #a2c2e2 0 0 9px;
-  -o-box-shadow: #a2c2e2 0 0 9px;
-  box-shadow: #a2c2e2 0 0 9px;
+  -moz-box-shadow: #a2c2e2 0 0 7px;
+  -webkit-box-shadow: #a2c2e2 0 0 7px;
+  -o-box-shadow: #a2c2e2 0 0 7px;
+  box-shadow: #a2c2e2 0 0 7px;
 }
-/* line 37, ../sass/_forms.sass */
+/* line 37, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form .box + input[type=submit] {
   font-weight: bold;
 }
 
-/* line 40, ../sass/_forms.sass */
+/* line 40, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 label {
   font-weight: bold;
   margin: 2px 0 2px 0;
   padding: 4px 0;
   text-align: right;
 }
-/* line 45, ../sass/_forms.sass */
+/* line 45, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 label input[type=checkbox] {
   margin-top: 3px;
 }
-/* line 48, ../sass/_forms.sass */
+/* line 48, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 label.block input[type=checkbox] {
   margin-right: 0.5em;
 }
 
-/* line 51, ../sass/_forms.sass */
+/* line 51, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 #issue_subject {
   width: 75%;
 }
 
-/* line 54, ../sass/_forms.sass */
+/* line 54, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 fieldset {
   background-color: #eeeeef;
   background: #eeeeef url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -1107,39 +1107,39 @@ fieldset {
   -o-box-shadow: inset white 0 0 1em;
   box-shadow: inset white 0 0 1em;
   border: 1px solid #e4e4ef;
-  margin: 9px 0;
-  padding: 18px;
+  margin: 7px 0;
+  padding: 14px;
 }
-/* line 56, ../sass/_forms.sass */
+/* line 56, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 fieldset.box {
   margin-left: -1px;
   margin-right: -1px;
 }
-/* line 59, ../sass/_forms.sass */
+/* line 59, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 fieldset.collapsible {
   border-width: 1px;
 }
-/* line 61, ../sass/_forms.sass */
+/* line 61, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 fieldset legend {
   font-weight: bold;
-  margin-top: 9px;
+  margin-top: 7px;
   padding: 0;
   text-shadow: #eeeeef 0 0 2px;
 }
-/* line 66, ../sass/_forms.sass */
+/* line 66, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 fieldset label {
   text-align: left;
 }
-/* line 68, ../sass/_forms.sass */
+/* line 68, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 fieldset label.floating {
   width: 18%;
 }
-/* line 70, ../sass/_forms.sass */
+/* line 70, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 fieldset p {
   clear: left;
 }
 
-/* line 74, ../sass/_forms.sass */
+/* line 74, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 .box fieldset {
   border: 0;
   background: none;
@@ -1151,49 +1151,49 @@ fieldset p {
   padding: 0;
 }
 
-/* line 82, ../sass/_forms.sass */
+/* line 82, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 .errorExplanation, .error {
   color: #dd0000;
 }
-/* line 84, ../sass/_forms.sass */
+/* line 84, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 .errorExplanation h2, .error h2 {
   font-size: 1em;
 }
-/* line 86, ../sass/_forms.sass */
+/* line 86, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 .errorExplanation p, .error p {
   margin-top: 0;
 }
 
-/* line 88, ../sass/_forms.sass */
+/* line 88, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 .fieldWithErrors input {
   border-color: #dd0000;
 }
 
-/* line 92, ../sass/_forms.sass */
+/* line 92, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 div.jstElements,
 div.jstEditor {
   padding: 0;
 }
 
-/* line 97, ../sass/_forms.sass */
+/* line 97, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 div.jstElements button {
   margin-right: 1px;
 }
-/* line 99, ../sass/_forms.sass */
+/* line 99, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 div.jstElements .help {
   margin-right: 0;
 }
 
-/* line 102, ../sass/_forms.sass */
+/* line 102, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 div.jstEditor textarea {
   width: 98%;
 }
 
-/* line 105, ../sass/_forms.sass */
+/* line 105, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 #attachments_fields {
   display: block;
 }
-/* line 107, ../sass/_forms.sass */
+/* line 107, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 #attachments_fields label.inline {
   display: block;
   float: none;
@@ -1201,28 +1201,28 @@ div.jstEditor textarea {
   width: auto;
   margin-bottom: 0;
 }
-/* line 113, ../sass/_forms.sass */
+/* line 113, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 #attachments_fields label.inline span {
   margin-right: 1em;
 }
-/* line 115, ../sass/_forms.sass */
+/* line 115, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 #attachments_fields br {
   display: none;
 }
-/* line 118, ../sass/_forms.sass */
+/* line 118, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 #attachments_fields input[type=file] {
   margin-left: 17%;
 }
-/* line 120, ../sass/_forms.sass */
+/* line 120, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 #attachments_fields input[type=file]:first-child {
   margin-left: 0;
 }
 
-/* line 123, ../sass/_forms.sass */
+/* line 123, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 #watchers_form {
   overflow: hidden;
 }
-/* line 125, ../sass/_forms.sass */
+/* line 125, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 #watchers_form .floating {
   float: left;
   font-weight: normal;
@@ -1231,54 +1231,54 @@ div.jstEditor textarea {
   width: 25%;
 }
 
-/* line 134, ../sass/_forms.sass */
+/* line 134, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form table {
-  margin: 18px 0;
+  margin: 14px 0;
 }
-/* line 136, ../sass/_forms.sass */
+/* line 136, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form table td, form table th {
   padding: 0.2em;
 }
-/* line 139, ../sass/_forms.sass */
+/* line 139, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form table td label {
   float: none;
   text-align: inherit;
   width: auto;
 }
-/* line 143, ../sass/_forms.sass */
+/* line 143, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form table td input {
   clear: left;
   float: left;
   margin-right: 1em;
 }
-/* line 147, ../sass/_forms.sass */
+/* line 147, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form table table {
   margin: 0;
 }
-/* line 151, ../sass/_forms.sass */
+/* line 151, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 form fieldset table {
   margin-top: 0;
 }
 
-/* line 155, ../sass/_forms.sass */
+/* line 155, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 #filters table {
   margin: 0;
 }
 
-/* line 159, ../sass/_forms.sass */
+/* line 159, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 .splitcontentleft fieldset, .splitcontentright fieldset {
-  margin: 0 0 18px 0;
+  margin: 0 0 14px 0;
 }
-/* line 161, ../sass/_forms.sass */
+/* line 161, /usr/share/redmine/public/themes/pepper/sass/_forms.sass */
 .splitcontentleft fieldset legend, .splitcontentright fieldset legend {
   margin-top: 0;
 }
 
-/* line 3, ../sass/_sidebar.sass */
+/* line 3, /usr/share/redmine/public/themes/pepper/sass/_sidebar.sass */
 #sidebar li a {
   display: block;
 }
-/* line 5, ../sass/_sidebar.sass */
+/* line 5, /usr/share/redmine/public/themes/pepper/sass/_sidebar.sass */
 #sidebar li a.selected {
   background-color: #666666;
   -moz-border-radius: 1em;
@@ -1291,37 +1291,37 @@ form fieldset table {
   text-decoration: none;
 }
 
-/* line 3, ../sass/_tables.sass */
+/* line 3, /usr/share/redmine/public/themes/pepper/sass/_tables.sass */
 table {
   border-collapse: collapse;
   width: 100%;
 }
 
-/* line 6, ../sass/_tables.sass */
+/* line 6, /usr/share/redmine/public/themes/pepper/sass/_tables.sass */
 th, td {
   padding: 0.2em 0.5em;
 }
 
-/* line 9, ../sass/_tables.sass */
+/* line 9, /usr/share/redmine/public/themes/pepper/sass/_tables.sass */
 td p {
   margin: 0;
 }
 
-/* line 11, ../sass/_tables.sass */
+/* line 11, /usr/share/redmine/public/themes/pepper/sass/_tables.sass */
 th {
   text-align: left;
 }
 
-/* line 14, ../sass/_tables.sass */
+/* line 14, /usr/share/redmine/public/themes/pepper/sass/_tables.sass */
 table.list {
   border: 0;
   margin: 1em 0;
 }
-/* line 17, ../sass/_tables.sass */
+/* line 17, /usr/share/redmine/public/themes/pepper/sass/_tables.sass */
 table.list th {
   background: #e4e4ef;
 }
-/* line 19, ../sass/_tables.sass */
+/* line 19, /usr/share/redmine/public/themes/pepper/sass/_tables.sass */
 table.list th, table.list td {
   border-bottom: 1px solid #e4e4ef;
   color: inherit;
@@ -1331,28 +1331,28 @@ table.list th, table.list td {
   text-align: left;
   vertical-align: middle;
 }
-/* line 29, ../sass/_tables.sass */
+/* line 29, /usr/share/redmine/public/themes/pepper/sass/_tables.sass */
 table.list td.checkbox {
   padding: 0.2em;
   text-align: center;
   padding: inherit;
 }
-/* line 32, ../sass/_tables.sass */
+/* line 32, /usr/share/redmine/public/themes/pepper/sass/_tables.sass */
 table.list td.checkbox input {
   float: none;
   margin-bottom: 0;
   margin-top: 0;
 }
-/* line 37, ../sass/_tables.sass */
+/* line 37, /usr/share/redmine/public/themes/pepper/sass/_tables.sass */
 table.list td.id {
   text-align: left;
 }
-/* line 39, ../sass/_tables.sass */
+/* line 39, /usr/share/redmine/public/themes/pepper/sass/_tables.sass */
 table.list th.subject {
   padding-left: 20px;
 }
 
-/* line 6, ../sass/_tabs.sass */
+/* line 6, /usr/share/redmine/public/themes/pepper/sass/_tabs.sass */
 #content .tabs {
   background: #e1e1e3;
   background: #e1e1e3 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZiIvPjxzdG9wIG9mZnNldD0iODAlIiBzdG9wLWNvbG9yPSIjZTFlMWUzIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2VjZWQxIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
@@ -1382,7 +1382,7 @@ table.list th.subject {
   border-bottom-right-radius: 0;
   height: 3em;
 }
-/* line 12, ../sass/_tabs.sass */
+/* line 12, /usr/share/redmine/public/themes/pepper/sass/_tabs.sass */
 #content .tabs ul {
   list-style-type: none;
   margin: 0;
@@ -1391,45 +1391,45 @@ table.list th.subject {
   border: 0;
   padding: 0;
 }
-/* line 6, ../sass/mixins/_navigation-list.sass */
+/* line 6, /usr/share/redmine/public/themes/pepper/sass/mixins/_navigation-list.sass */
 #content .tabs ul li {
   float: left;
   margin: 0;
   padding: 0;
   position: relative;
 }
-/* line 11, ../sass/mixins/_navigation-list.sass */
+/* line 11, /usr/share/redmine/public/themes/pepper/sass/mixins/_navigation-list.sass */
 #content .tabs ul a {
   display: block;
   margin: 0;
-  padding: 9px;
+  padding: 7px;
   text-decoration: none;
 }
-/* line 16, ../sass/_tabs.sass */
+/* line 16, /usr/share/redmine/public/themes/pepper/sass/_tabs.sass */
 #content .tabs ul li {
   background: transparent;
   margin: 0;
 }
-/* line 19, ../sass/_tabs.sass */
+/* line 19, /usr/share/redmine/public/themes/pepper/sass/_tabs.sass */
 #content .tabs ul li a {
   background: transparent;
   border: 0;
   font-weight: normal;
-  padding: 11px 9px;
+  padding: 9px 7px;
 }
-/* line 24, ../sass/_tabs.sass */
+/* line 24, /usr/share/redmine/public/themes/pepper/sass/_tabs.sass */
 #content .tabs ul li a:hover {
   background: transparent;
   color: #a2c2e2;
 }
-/* line 27, ../sass/_tabs.sass */
+/* line 27, /usr/share/redmine/public/themes/pepper/sass/_tabs.sass */
 #content .tabs ul li a.selected {
   background: transparent;
   border: 0;
   color: #333333;
   position: relative;
 }
-/* line 32, ../sass/_tabs.sass */
+/* line 32, /usr/share/redmine/public/themes/pepper/sass/_tabs.sass */
 #content .tabs ul li a.selected:after {
   position: absolute;
   bottom: 0;
@@ -1437,209 +1437,209 @@ table.list th.subject {
   content: "";
   display: block;
   border-top: 0;
-  border-right: 9px solid transparent;
-  border-bottom: 9px solid white;
-  border-left: 9px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid white;
+  border-left: 7px solid transparent;
   width: 0px;
-  margin-left: -9px;
+  margin-left: -7px;
 }
-/* line 44, ../sass/_tabs.sass */
+/* line 44, /usr/share/redmine/public/themes/pepper/sass/_tabs.sass */
 #content .tabs ul li a.selected:hover {
   background: transparent;
 }
-/* line 46, ../sass/_tabs.sass */
+/* line 46, /usr/share/redmine/public/themes/pepper/sass/_tabs.sass */
 #content .tabs .tabs-buttons {
   display: none;
 }
 
-/* line 3, ../sass/page_specific/_account.sass */
+/* line 3, /usr/share/redmine/public/themes/pepper/sass/page_specific/_account.sass */
 .action-login #main #content, .action-lost_password #main #content {
   margin-bottom: 0;
   min-height: 0;
 }
-/* line 6, ../sass/page_specific/_account.sass */
+/* line 6, /usr/share/redmine/public/themes/pepper/sass/page_specific/_account.sass */
 .action-login #wrapper, .action-lost_password #wrapper {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-/* line 10, ../sass/page_specific/_account.sass */
+/* line 10, /usr/share/redmine/public/themes/pepper/sass/page_specific/_account.sass */
 .action-login #top-menu, .action-lost_password #top-menu {
-  margin-right: 18px;
+  margin-right: 14px;
   padding: 0;
 }
-/* line 13, ../sass/page_specific/_account.sass */
+/* line 13, /usr/share/redmine/public/themes/pepper/sass/page_specific/_account.sass */
 .action-login #top-menu #account, .action-lost_password #top-menu #account {
   float: right;
   position: relative;
   width: auto;
 }
-/* line 17, ../sass/page_specific/_account.sass */
+/* line 17, /usr/share/redmine/public/themes/pepper/sass/page_specific/_account.sass */
 .action-login #top-menu #account ul, .action-lost_password #top-menu #account ul {
   width: auto;
 }
-/* line 19, ../sass/page_specific/_account.sass */
+/* line 19, /usr/share/redmine/public/themes/pepper/sass/page_specific/_account.sass */
 .action-login #top-menu #account ul li a, .action-lost_password #top-menu #account ul li a {
   padding-left: 1em;
 }
 
-/* line 23, ../sass/page_specific/_account.sass */
+/* line 23, /usr/share/redmine/public/themes/pepper/sass/page_specific/_account.sass */
 #login-form table {
   background: none;
   border: none;
-  margin: 36px 0 18px 0;
+  margin: 28px 0 14px 0;
 }
 
-/* line 2, ../sass/page_specific/_activities.sass */
+/* line 2, /usr/share/redmine/public/themes/pepper/sass/page_specific/_activities.sass */
 .controller-activities .time {
   color: #888888;
   font-size: 0.8em;
 }
-/* line 6, ../sass/page_specific/_activities.sass */
+/* line 6, /usr/share/redmine/public/themes/pepper/sass/page_specific/_activities.sass */
 .controller-activities dd {
   margin-bottom: 1em;
   margin-left: 1em;
 }
 
-/* line 2, ../sass/page_specific/_boards.sass */
+/* line 2, /usr/share/redmine/public/themes/pepper/sass/page_specific/_boards.sass */
 table.messages tr.message td.subject {
   background-position: 0 50%;
 }
 
-/* line 3, ../sass/page_specific/_calendars.sass */
+/* line 3, /usr/share/redmine/public/themes/pepper/sass/page_specific/_calendars.sass */
 .controller-calendars table.cal td {
   border: 1px solid #e4e4ef;
   vertical-align: top;
   height: 6em;
   width: 14%;
 }
-/* line 8, ../sass/page_specific/_calendars.sass */
+/* line 8, /usr/share/redmine/public/themes/pepper/sass/page_specific/_calendars.sass */
 .controller-calendars table.cal td.week-number {
   border: none;
   color: #888888;
   text-align: right;
   width: auto;
 }
-/* line 14, ../sass/page_specific/_calendars.sass */
+/* line 14, /usr/share/redmine/public/themes/pepper/sass/page_specific/_calendars.sass */
 .controller-calendars .buttons {
-  margin: 18px 0;
+  margin: 14px 0;
 }
-/* line 16, ../sass/page_specific/_calendars.sass */
+/* line 16, /usr/share/redmine/public/themes/pepper/sass/page_specific/_calendars.sass */
 .controller-calendars .buttons label {
   float: none;
-  margin: 0 0 0 18px;
+  margin: 0 0 0 14px;
 }
-/* line 19, ../sass/page_specific/_calendars.sass */
+/* line 19, /usr/share/redmine/public/themes/pepper/sass/page_specific/_calendars.sass */
 .controller-calendars .buttons label:after {
   content: ":";
 }
-/* line 22, ../sass/page_specific/_calendars.sass */
+/* line 22, /usr/share/redmine/public/themes/pepper/sass/page_specific/_calendars.sass */
 .controller-calendars .starting a, .controller-calendars .legend .starting {
   background: url("/images/bullet_go.png") no-repeat scroll -1px -2px transparent;
   padding-left: 16px;
 }
-/* line 25, ../sass/page_specific/_calendars.sass */
+/* line 25, /usr/share/redmine/public/themes/pepper/sass/page_specific/_calendars.sass */
 .controller-calendars .ending a, .controller-calendars .legend .ending {
   background: url("/images/bullet_end.png") no-repeat scroll -1px -2px transparent;
   padding-left: 16px;
 }
-/* line 28, ../sass/page_specific/_calendars.sass */
+/* line 28, /usr/share/redmine/public/themes/pepper/sass/page_specific/_calendars.sass */
 .controller-calendars .starting.ending a, .controller-calendars .legend .starting.ending {
   background: url("/images/bullet_diamond.png") no-repeat scroll -1px -2px transparent;
   padding-left: 16px;
 }
-/* line 33, ../sass/page_specific/_calendars.sass */
+/* line 33, /usr/share/redmine/public/themes/pepper/sass/page_specific/_calendars.sass */
 .controller-calendars .legend span {
   display: block;
 }
 
-/* line 2, ../sass/page_specific/_issues.sass */
+/* line 2, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 #query_form_content fieldset {
   padding-top: 0;
 }
-/* line 4, ../sass/page_specific/_issues.sass */
+/* line 4, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 #query_form_content legend {
   cursor: pointer;
 }
-/* line 7, ../sass/page_specific/_issues.sass */
+/* line 7, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 #query_form_content table th, #query_form_content table td {
   border: none;
   padding: 0.2em 0;
   vertical-align: top;
   font-weight: bold;
 }
-/* line 16, ../sass/page_specific/_issues.sass */
+/* line 16, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 #query_form_content table table td {
   vertical-align: middle;
 }
-/* line 19, ../sass/page_specific/_issues.sass */
+/* line 19, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 #query_form_content table table td select, #query_form_content table table td input {
   margin-bottom: 0;
   margin-top: 0;
 }
-/* line 22, ../sass/page_specific/_issues.sass */
+/* line 22, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 #query_form_content #available_columns, #query_form_content #selected_columns {
   width: 99% !important;
 }
-/* line 26, ../sass/page_specific/_issues.sass */
+/* line 26, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 #query_form_content tr.filter td input {
   float: left;
 }
-/* line 28, ../sass/page_specific/_issues.sass */
+/* line 28, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 #query_form_content td.add-filter {
   text-align: right;
   vertical-align: top;
 }
-/* line 31, ../sass/page_specific/_issues.sass */
+/* line 31, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 #query_form_content td.add-filter label {
   display: inline;
   float: none;
   width: auto;
 }
 
-/* line 36, ../sass/page_specific/_issues.sass */
+/* line 36, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 div.issue {
   background: none;
   border: none;
-  margin: 36px 0;
+  margin: 28px 0;
   padding: 0;
 }
 
-/* line 42, ../sass/page_specific/_issues.sass */
+/* line 42, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 td div.issue {
   margin: 0;
 }
 
-/* line 47, ../sass/page_specific/_issues.sass */
+/* line 47, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 tr.issue {
   text-align: left;
 }
 
-/* line 50, ../sass/page_specific/_issues.sass */
+/* line 50, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 table.issues th {
   white-space: normal;
 }
 
-/* line 54, ../sass/page_specific/_issues.sass */
+/* line 54, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 table.issues td, table.issues th {
   padding: 0.5em;
 }
-/* line 57, ../sass/page_specific/_issues.sass */
+/* line 57, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 table.issues .assigned-to-me {
   font-weight: bold;
 }
 
-/* line 63, ../sass/page_specific/_issues.sass */
+/* line 63, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 form .attributes select {
   max-width: 80%;
   width: auto;
 }
-/* line 66, ../sass/page_specific/_issues.sass */
+/* line 66, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 form .attributes th {
   padding-left: 0;
 }
 
-/* line 70, ../sass/page_specific/_issues.sass */
+/* line 70, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 #issue-form .box {
   background-color: #eeeeef;
   background: #eeeeef url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -1660,8 +1660,8 @@ form .attributes th {
   -o-box-shadow: inset white 0 0 1em;
   box-shadow: inset white 0 0 1em;
   border: 1px solid #e4e4ef;
-  margin: 9px 0;
-  padding: 18px;
+  margin: 7px 0;
+  padding: 14px;
   border: none;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -1673,21 +1673,21 @@ form .attributes th {
   -webkit-box-shadow: none;
   -o-box-shadow: none;
   box-shadow: none;
-  margin: 18px 0;
+  margin: 14px 0;
   padding: 0;
 }
 
-/* line 79, ../sass/page_specific/_issues.sass */
+/* line 79, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 #history .journal {
   border-left: 4px solid #e4e4ef;
-  padding-left: 18px;
+  padding-left: 14px;
 }
-/* line 82, ../sass/page_specific/_issues.sass */
+/* line 82, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 #history .journal .journal-link {
   display: inline;
 }
 
-/* line 86, ../sass/page_specific/_issues.sass */
+/* line 86, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 #update {
   background-color: #eeeeef;
   background: #eeeeef url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -1708,81 +1708,81 @@ form .attributes th {
   -o-box-shadow: inset white 0 0 1em;
   box-shadow: inset white 0 0 1em;
   border: 1px solid #e4e4ef;
-  margin: 9px 0;
-  padding: 18px;
+  margin: 7px 0;
+  padding: 14px;
 }
-/* line 88, ../sass/page_specific/_issues.sass */
+/* line 88, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 #update h3 {
   margin-top: 0;
 }
 
-/* line 92, ../sass/page_specific/_issues.sass */
+/* line 92, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 table .priority-1 {
   background: white;
   color: #333333;
 }
 
-/* line 92, ../sass/page_specific/_issues.sass */
+/* line 92, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 table .priority-2 {
   background: #fffbfb;
   color: #443333;
 }
 
-/* line 92, ../sass/page_specific/_issues.sass */
+/* line 92, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 table .priority-3 {
   background: #fff7f7;
   color: #553333;
 }
 
-/* line 92, ../sass/page_specific/_issues.sass */
+/* line 92, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 table .priority-4 {
   background: #fff3f3;
   color: #663333;
 }
 
-/* line 92, ../sass/page_specific/_issues.sass */
+/* line 92, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 table .priority-5 {
   background: #ffefef;
   color: #773333;
 }
 
-/* line 92, ../sass/page_specific/_issues.sass */
+/* line 92, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 table .priority-6 {
   background: #ffebeb;
   color: #883333;
 }
 
-/* line 92, ../sass/page_specific/_issues.sass */
+/* line 92, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 table .priority-7 {
   background: #ffe7e7;
   color: #993333;
 }
 
-/* line 92, ../sass/page_specific/_issues.sass */
+/* line 92, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 table .priority-8 {
   background: #ffe3e3;
   color: #aa3333;
 }
 
-/* line 92, ../sass/page_specific/_issues.sass */
+/* line 92, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 table .priority-9 {
   background: #ffdfdf;
   color: #bb3333;
 }
 
-/* line 92, ../sass/page_specific/_issues.sass */
+/* line 92, /usr/share/redmine/public/themes/pepper/sass/page_specific/_issues.sass */
 table .priority-10 {
   background: #ffdbdb;
   color: #cc3333;
 }
 
-/* line 4, ../sass/page_specific/_reports.sass */
+/* line 4, /usr/share/redmine/public/themes/pepper/sass/page_specific/_reports.sass */
 .action-issue_report .list th {
   text-align: center;
   text-transform: capitalize;
 }
 
-/* line 3, ../sass/page_specific/_repository.sass */
+/* line 3, /usr/share/redmine/public/themes/pepper/sass/page_specific/_repository.sass */
 table.changesets td.age,
 table.changesets td.author,
 table.changesets td.committed_on,
@@ -1795,68 +1795,71 @@ table.entries td.revision,
 table.entries td.size {
   text-align: left;
 }
-/* line 9, ../sass/page_specific/_repository.sass */
+/* line 9, /usr/share/redmine/public/themes/pepper/sass/page_specific/_repository.sass */
 table.changesets td.checkbox,
 table.entries td.checkbox {
   padding: 0;
 }
 
-/* line 2, ../sass/page_specific/_roles.sass */
+/* line 2, /usr/share/redmine/public/themes/pepper/sass/page_specific/_roles.sass */
 #permissions fieldset {
-  margin-top: 18px;
+  margin-top: 14px;
 }
-/* line 4, ../sass/page_specific/_roles.sass */
+/* line 4, /usr/share/redmine/public/themes/pepper/sass/page_specific/_roles.sass */
 #permissions fieldset:first-child {
   margin-top: 0;
 }
-/* line 6, ../sass/page_specific/_roles.sass */
+/* line 6, /usr/share/redmine/public/themes/pepper/sass/page_specific/_roles.sass */
 #permissions legend {
   margin: 0;
 }
-/* line 8, ../sass/page_specific/_roles.sass */
+/* line 8, /usr/share/redmine/public/themes/pepper/sass/page_specific/_roles.sass */
 #permissions label.floating {
   margin: 0;
   padding: 0;
   width: 33%;
 }
-/* line 12, ../sass/page_specific/_roles.sass */
+/* line 12, /usr/share/redmine/public/themes/pepper/sass/page_specific/_roles.sass */
 #permissions label.floating input {
   margin-top: 3px;
 }
 
-/* line 3, ../sass/page_specific/_settings.sass */
+/* line 3, /usr/share/redmine/public/themes/pepper/sass/page_specific/_settings.sass */
 .versions tr.version td.name {
   padding: 0.5em 1em;
 }
-/* line 5, ../sass/page_specific/_settings.sass */
+/* line 5, /usr/share/redmine/public/themes/pepper/sass/page_specific/_settings.sass */
 .versions tr.version td {
   text-align: left;
 }
 
-/* line 1, ../sass/page_specific/_wiki.sass */
+/* line 1, /usr/share/redmine/public/themes/pepper/sass/page_specific/_wiki.sass */
 .wiki h1 {
   border: 0;
 }
 
 @media all and (max-device-width: 767px), all and (max-width: 449px) {
-  /* line 3, ../sass/responsive/_small_screens.sass */
+  /* line 3, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   body {
     font-size: 1em;
     margin: 0;
     min-width: 0;
   }
 
-  /* line 7, ../sass/responsive/_small_screens.sass */
+  /* line 7, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #loggedas, #sidebar, #footer {
     display: none;
   }
 
-  /* line 10, ../sass/responsive/_small_screens.sass */
+  /* line 10, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #top-menu #account {
-    bottom: -2em;
     position: absolute;
+    left: 1em;
+    top: 3em;
+    font-size: -3em;
+    padding: 0;
   }
-  /* line 13, ../sass/responsive/_small_screens.sass */
+  /* line 19, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #top-menu ul {
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
@@ -1870,18 +1873,18 @@ table.entries td.checkbox {
     box-shadow: none;
     width: 100%;
   }
-  /* line 17, ../sass/responsive/_small_screens.sass */
+  /* line 23, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #top-menu ul li {
     width: 20%;
   }
-  /* line 19, ../sass/responsive/_small_screens.sass */
+  /* line 25, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #top-menu ul li a {
     overflow: hidden;
-    padding: 9px;
-    text-align: center;
+    padding: 7px;
+    text-align: right;
     text-overflow: ellipsis;
   }
-  /* line 24, ../sass/responsive/_small_screens.sass */
+  /* line 30, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #top-menu ul li:first-child a {
     border-left: 0;
     -moz-border-radius: 0;
@@ -1891,7 +1894,7 @@ table.entries td.checkbox {
     -khtml-border-radius: 0;
     border-radius: 0;
   }
-  /* line 27, ../sass/responsive/_small_screens.sass */
+  /* line 33, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #top-menu ul li:last-child a {
     border-right: 0;
     -moz-border-radius: 0;
@@ -1902,33 +1905,33 @@ table.entries td.checkbox {
     border-radius: 0;
   }
 
-  /* line 30, ../sass/responsive/_small_screens.sass */
+  /* line 36, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #header {
-    margin: 36px 0 18px 0;
+    margin: 28px 0 14px 0;
   }
-  /* line 32, ../sass/responsive/_small_screens.sass */
+  /* line 38, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #header h1 {
-    margin: 9px;
+    margin: 7px;
   }
-  /* line 34, ../sass/responsive/_small_screens.sass */
+  /* line 40, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #header .project_selector {
-    margin-top: 9px;
+    margin-top: 7px;
   }
-  /* line 36, ../sass/responsive/_small_screens.sass */
+  /* line 42, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #header #main-menu {
     margin: 0;
   }
-  /* line 38, ../sass/responsive/_small_screens.sass */
+  /* line 44, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #header #quick-search {
     color: transparent;
-    margin-right: 9px;
+    margin-right: 7px;
   }
-  /* line 41, ../sass/responsive/_small_screens.sass */
+  /* line 47, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #header #quick-search a {
     display: none;
   }
 
-  /* line 43, ../sass/responsive/_small_screens.sass */
+  /* line 49, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #main {
     border: 0;
     -moz-border-radius: 0;
@@ -1942,59 +1945,59 @@ table.entries td.checkbox {
     -o-box-shadow: none;
     box-shadow: none;
   }
-  /* line 47, ../sass/responsive/_small_screens.sass */
+  /* line 53, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #main #content, #main.nosidebar #content {
-    margin: 9px;
+    margin: 7px;
   }
-  /* line 50, ../sass/responsive/_small_screens.sass */
+  /* line 56, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #main h2 {
-    margin: 1em 0 9px 0;
+    margin: 1em 0 7px 0;
   }
 
-  /* line 53, ../sass/responsive/_small_screens.sass */
+  /* line 59, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   .splitcontentleft, .splitcontentright {
     float: none;
     width: auto;
   }
 
-  /* line 56, ../sass/responsive/_small_screens.sass */
+  /* line 62, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   .box {
-    padding: 9px;
+    padding: 7px;
   }
 
-  /* line 58, ../sass/responsive/_small_screens.sass */
+  /* line 64, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   .contextual {
     float: none;
     padding: 0;
     white-space: normal;
   }
 
-  /* line 64, ../sass/responsive/_small_screens.sass */
+  /* line 70, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #content .tabs {
     height: auto;
     overflow: auto;
   }
-  /* line 67, ../sass/responsive/_small_screens.sass */
+  /* line 73, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #content .tabs ul {
     width: auto;
     position: relative;
   }
 
-  /* line 70, ../sass/responsive/_small_screens.sass */
+  /* line 76, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   .tabs-buttons {
     display: block;
   }
 
-  /* line 75, ../sass/responsive/_small_screens.sass */
+  /* line 81, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   form em {
     margin-left: 0;
   }
 
-  /* line 78, ../sass/responsive/_small_screens.sass */
+  /* line 84, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   .tabular p {
-    padding: 9px;
+    padding: 7px;
   }
-  /* line 80, ../sass/responsive/_small_screens.sass */
+  /* line 86, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   .tabular p label {
     display: block;
     float: none;
@@ -2002,32 +2005,32 @@ table.entries td.checkbox {
     text-align: left;
   }
 
-  /* line 86, ../sass/responsive/_small_screens.sass */
+  /* line 92, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   .tabular.settings p {
-    padding: 9px;
+    padding: 7px;
   }
-  /* line 88, ../sass/responsive/_small_screens.sass */
+  /* line 94, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   .tabular.settings label {
     margin-left: 0;
   }
 
-  /* line 93, ../sass/responsive/_small_screens.sass */
+  /* line 99, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   .action-login #wrapper, .action-lost_password #wrapper {
     width: auto;
   }
-  /* line 95, ../sass/responsive/_small_screens.sass */
+  /* line 101, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   .action-login #top-menu, .action-lost_password #top-menu {
-    margin-right: 9px;
+    margin-right: 7px;
   }
 
-  /* line 99, ../sass/responsive/_small_screens.sass */
+  /* line 105, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   #login-form table {
     background: none;
     border: none;
-    margin: 18px 0 9px 0;
+    margin: 14px 0 7px 0;
   }
 
-  /* line 106, ../sass/responsive/_small_screens.sass */
+  /* line 112, /usr/share/redmine/public/themes/pepper/sass/responsive/_small_screens.sass */
   .controller-issues #content .contextual:first-child {
     display: none;
   }

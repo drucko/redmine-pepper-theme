@@ -8,8 +8,14 @@ $spacing: $spacing/2
     display: none
   #top-menu
     #account
-      bottom: -2em
       position: absolute
+      left: 1em
+      top: 3em
+      font-size: -3em
+      padding: 0
+      //bottom: -2em
+      //bottom: 0em
+      //position: relative
     ul
       +border-radius(0)
       +box-shadow(none)
@@ -19,7 +25,7 @@ $spacing: $spacing/2
         a
           overflow: hidden
           padding: $spacing
-          text-align: center
+          text-align: right
           text-overflow: ellipsis
         &:first-child a
           border-left: 0
