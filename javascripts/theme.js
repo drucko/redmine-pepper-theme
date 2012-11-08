@@ -1,9 +1,39 @@
+function imagebuilder(){
+	    /* inject viewport meta tag into document head */
+	      $$('head')[0].insert({bottom: '<link rel="apple-touch-startup-image" href="/themes/smartmine/images/startup.png"><link rel="apple-touch-icon-precomposed" href="/themes/smartmine/images/apple-touch-icon-precomposed.png"/><link rel="apple-touch-icon-precomposed" sizes="72x72" href="/themes/smartmine/images/apple-touch-icon-72x72-precomposed.png"/><link rel="apple-touch-icon-precomposed" sizes="114x114" href="/themes/smartmine/images/apple-touch-icon-114x114-precomposed.png"/>'});
+}
+
 function injectViewportMetaTag() {
   var meta = $(document.createElement('meta'));
   meta.name = 'viewport';
   meta.content = 'width=450';
   $$('head')[0].insert(meta);
 };
+/* move node into new parent */
+function moveNode(node, parent) {
+	var n = document.getElementById(node);
+	var p = document.getElementById(parent);
+	if (n != undefined && n !== null && p != undefined && p !== null) {
+		p.appendChild(n.parentNode.removeChild(n));
+	}
+}
+
+/* move sidebar to bottom and insert link */
+function moveSidebar() {
+  moveNode('sidebar', 'main');
+  var context = document.getElementById('content').getElementsByTagName('div')[0];
+  var side = $(document.createElement('a'));
+  side.href = '#sidebar';
+  side.className = 'icon icon-meta';
+  side.innerText = 'special querys';
+ context.appendChild(side);									
+}
+
+/* hasClass */
+function hasClass(element, cls) {
+	    var r = new RegExp('\\b' + cls + '\\b');
+	        return r.test(element.className);
+}
 
 ProjectMenuBuilder = {
   buildMenuItem: function(project) {
@@ -135,6 +165,8 @@ document.observe("dom:loaded", function() {
     $$('#quick-search select').first(),
     $$('#header h1').first()
   );
+  imagebuilder();
   injectViewportMetaTag();
+  moveSidebar();
 });
 
